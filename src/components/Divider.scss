@@ -1,0 +1,15 @@
+.Divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__vertical {
+    height: 100%;
+    border-right: 3px solid black;
+  }
+
+  &__horizontal {
+    width: 100%;
+    border-bottom: 3px solid black;
+  }
+}

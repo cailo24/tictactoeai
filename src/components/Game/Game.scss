@@ -1,0 +1,12 @@
+.playground {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  &__reset {
+    font-size: 32px;
+    padding: 16px;
+    border-radius: 8px;
+    border: none;
+  }
+}

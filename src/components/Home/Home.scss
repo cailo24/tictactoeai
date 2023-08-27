@@ -1,0 +1,44 @@
+.Home {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+
+  &__players {
+    display: flex;
+    flex-direction: row;
+    gap: 64px;
+    align-items: center;
+    justify-content: center;
+
+    &__buttons {
+      font-size: 32px;
+      padding: 16px;
+      border-radius: 8px;
+      border: none;
+
+      &--active {
+        font-size: 32px;
+        padding: 16px;
+        border-radius: 8px;
+        border: 4px black solid;
+      }
+    }
+  }
+
+  &__start {
+    font-size: 32px;
+    padding: 16px;
+    border-radius: 8px;
+    border: none;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    margin: 0;
+  }
+}

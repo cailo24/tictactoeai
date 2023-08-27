@@ -1,0 +1,11 @@
+.Board {
+  width: fit-content;
+  height: 100%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4px;
+  background-color: black;
+  border-radius: 32px;
+  overflow: hidden;
+}
